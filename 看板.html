@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="refresh" content="0; url=http://localhost:3000/" />
+    <title>打开美股 AI 看板</title>
+    <style>
+      :root {
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+        color: #0f172a;
+        background: #f7f7f5;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+      }
+
+      main {
+        width: min(420px, calc(100vw - 40px));
+        padding: 32px;
+        border: 1px solid #e2e8f0;
+        border-radius: 24px;
+        background: #ffffff;
+        box-shadow: 0 24px 80px rgb(15 23 42 / 8%);
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: 24px;
+      }
+
+      p {
+        margin: 0 0 24px;
+        color: #64748b;
+        line-height: 1.7;
+      }
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 42px;
+        padding: 0 18px;
+        border-radius: 999px;
+        background: #0f172a;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>美股 AI 看板</h1>
+      <p>正在打开本地看板。如果没有自动跳转，请点击下面的按钮。</p>
+      <a href="http://localhost:3000/">打开看板</a>
+    </main>
+  </body>
+</html>
